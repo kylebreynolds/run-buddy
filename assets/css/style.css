@@ -2,83 +2,81 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+  }
 
-body {
+  body {
     font-family: Helvetica, Arial, sans-serif;
     color: #39a6b2;
-}
+  }
 
-header {
+  header {
     padding: 20px 35px;
     background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+  }
 
-header h1{
+  header h1{
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
-   
-}
+  }
 
-header a {
+  header a {
     color: #fce138;
     text-decoration: none;
-}
+  }
 
-header nav {
-    
+  header nav {
     margin: 7px 0;
-}
+  }
 
-header nav ul {
+  header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-}
+  }
 
-header nav ul li a {
+  header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
-}
+  }
 
-footer {
+  footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+  }
 
-footer h2 {
+  footer h2 {
     color: #024e76;
     font-size: 30px;
     margin: 0;
-}
+  }
 
-footer div {
+  footer div {
     line-height: 1.5;
     text-align: right;
-}
+  }
 
-footer a {
+  footer a {
     color: #024e76;
-}
+  }
 
-section {
+  section {
     padding: 60px;
     
-}
+  }
 
-.hero {
+  .hero {
     background-image: url(../images/hero-bg.jpg);
     background-size: cover;
     background-position: center;
@@ -86,9 +84,9 @@ section {
     justify-content: center;
     flex-wrap: wrap;
   
-}
+  }
 
-.hero-form {
+  .hero-form {
     color: #024e76;
     background-color: #fce138;
     padding: 20px;
@@ -97,19 +95,19 @@ section {
     margin: 3.5%;
    
 
-}
+  }
 
-.hero-form h3 {
+  .hero-form h3 {
     font-size: 24px;
     margin: 0;
-}
+  }
 
-.hero-form p {
+  .hero-form p {
     margin: 5px 0 15px 0;
 
-}
+  }
 
-.form-input {
+  .form-input {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
@@ -117,39 +115,39 @@ section {
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
-}
+  }
 
-.hero-form label {
+  .hero-form label {
     margin: 0 5px;
-}
+  }
 
-.hero-form button {
+  .hero-form button {
     color: #fce138;
     background-color: #024e76;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-}
+  }
 
-.hero-cta {
-  width: 35%;
-  text-align: right;
-  margin: 3.5%;
-  color: #fff;
-  font-size: 18px;
-  line-height: 1.3;
-}
+  .hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+  }
 
-.hero-cta h2 {
-  font-style: italic;
-  font-size: 55px;
-  color: #fce138;
-}
-
-
+  .hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
+  }
 
 
-  .intro p {
+
+
+  .intro p { 
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
@@ -180,28 +178,52 @@ section {
     border-color: #39a6b2;
   }
 
-  .steps div {
-    margin-bottom: 80px;
+  .step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
   }
   
-  .steps img {
-    width: 15%;
-    margin: 10px 0;
-  }
-  
-  .steps h3 {
+  .step h3 {
     color: #024e76;
     font-size: 46px;
-    margin-top: 10px;
+    flex; 1 30%;
   }
   
-  .steps p {
+  .steps-text p {
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
   }
 
-  .steps span {
-    font-size: 38px;
+  .step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+  }
+
+  .step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+  }
+
+  .step-text {
+    flex: 12;
+  }
+
+  .step-img img {
+    max-width: 100%;
   }
 
   .trainers {
@@ -213,7 +235,7 @@ section {
     margin: 0 auto 30px auto;
     background: #024e76;
     color: #fce138;
-    overflow: auto;
+   overflow: auto;
   }
 
   .trainer img {
@@ -223,7 +245,7 @@ section {
   
   .trainer-bio {
     padding: 35px;
-    float: left;
+    fl oat: left;
     width: 65%;
   }
 
@@ -293,3 +315,4 @@ section {
   .flex-row {
     display: flex;
   }
+
